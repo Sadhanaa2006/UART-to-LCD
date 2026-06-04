@@ -2,7 +2,7 @@
 
 ## 🔹 Overview
 
-This project demonstrates **UART-based serial communication** using the **AT89C51 microcontroller**, where data received from a PC is displayed in real time on a **16x2 LCD operating in 4-bit mode**. It highlights embedded communication, efficient LCD interfacing, and real-time data handling.
+This project demonstrates UART-based serial communication using the AT89C51 microcontroller, where data received from a PC is displayed in real time on a 16x2 LCD operating in 4-bit mode. It highlights embedded communication, efficient LCD interfacing, and real-time data handling.
 
 ## 🎯 Objective
 
@@ -34,23 +34,23 @@ To receive serial data via UART and display it on an LCD using minimal GPIO pins
 
 ## 🧠 Working Principle
 
-* Serial data is transmitted from PC via Virtual Terminal / COMPIM
+* Serial data transmitted from PC via Virtual Terminal / COMPIM
 * AT89C51 receives data using UART (SBUF register)
 * Each character is processed and sent to LCD
 * LCD displays characters in real time using 4-bit mode
 
 ## 🛠️ Simulation Flow
 
-* Code is compiled in Keil µVision to generate `.hex` file
-* `.hex` is loaded into AT89C51 in Proteus
-* UART terminal is connected for input
-* Simulation is run to observe real-time LCD output
+* Code compiled in Keil µVision to generate `.hex`
+* `.hex` loaded into AT89C51 in Proteus
+* UART terminal connected for input
+* Simulation run to observe LCD output
 
 ## 📊 Result
 
-* Successfully established UART communication with 8051
-* Real-time character display on LCD achieved
-* Efficient LCD interfacing using only 4-bit data lines
+* UART communication successfully established
+* Real-time LCD display of received characters
+* Efficient 4-bit LCD interfacing using minimal I/O pins
 
 ## 🚀 Skills Demonstrated
 
@@ -65,5 +65,7 @@ To receive serial data via UART and display it on an LCD using minimal GPIO pins
 ✔ Minimal GPIO usage using 4-bit LCD mode
 ✔ Real-time serial-to-display conversion
 ✔ Fully simulation-based embedded system project
+
+
 
 
